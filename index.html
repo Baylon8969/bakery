@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bakery</title>
+    <link rel="stylesheet" href="css/styles.css">
+    
+
+    <script  src="https://kit.fontawesome.com/797356307c.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    
+</head>
+
+<body>
+   
+        <div id="top_page" class="menu-box">
+
+          <div class="menu">
+            <ul class="nav-area">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="newsletter.html">newsletter</a></li>
+            
+              <li class="dropdown">follow me
+                <ul>
+                  <li><a href="https://www.facebook.com/baylon.loulendo.3">facebook</a></li>
+                  <li><a href="https://www.instagram.com/baylon_the_narco/">instagram</a></li>
+                  
+                </ul>
+              </li>
+              
+              <li><a href="Save_for_late.html">Save_for_late <span id="nmbrofitms"></span></a></li>
+            </ul>
+          </div>
+          
+        </div>
+
+      <section class="top-page"></section> 
+      <div>
+        <h1 class="welcome">
+          Welcome to Charrel bakery
+        </h1>
+      </div>
+      
+        
+        <a class="scroll-down" href="#recipes">Scroll <i class="fas fa-angle-down"></i></a>
+          
+      </section>
+
+      <div class="container container-fluid">
+
+          <h1 class="big-title" > charrel bakery</h1>
+
+              <div class="small-container">
+
+                <div class="row">
+
+                    <div class="col-3">
+
+                      <img src="./images/my recipe/banana-bread-horiz-a-1600.jpg" alt="">
+
+                    </div>
+                    
+                    <div class="col-3">
+
+                      <img src="./images/my recipe/Biscuit.jpg" alt="">
+
+                    </div>
+
+                    <div class="col-3">
+
+                      <img src="./images/my recipe/IMG_5429.JPG" alt="">
+
+                    </div>
+
+                    <div class="col-3">
+
+                      <img src="./images/my recipe/Malva Pudding Brighter.jpg" alt="">
+                      
+                </div>
+
+          </div>
+      </div>
+
+    </div>
+
+
+      <!--Recipes-->
+
+      <div id="recipes" class="small-container_2 container-fluid">
+        
+        <div class="row">
+
+          <h2 class="title">Recipes</h2>
+
+          <div class="col-4">
+
+
+
+            <img src="./images/my recipe/banana-bread-horiz-a-1600.jpg" alt="">
+
+            <h4>banana-bread</h4>
+
+            <p>
+              Preheat oven to 350 degrees F (175 degrees C). Lightly grease a 9x5 inch loaf pan.
+            </p>
+
+            <button type="button" class="btn btn-primary">Save</button>
+
+            
+            <div class="heart-box">
+
+              <i class="far fa-heart"></i>
+  
+            </div>
+            
+
+
+            <img src="./images/my recipe/Biscuit.jpg" alt="">
+
+            <h4>Biscuit</h4>
+
+            <p>
+              Preheat oven to 350 degrees F (175 degrees C). Lightly grease a 9x5 inch loaf pan.
+            </p>
+
+            <button type="button" class="btn btn-primary">Save</button>
+
+            <div class="heart-box">
+
+              <i class="far fa-heart"></i>
+  
+            </div>
+            
+          </div>
+          
+          <div class="col-4">
+
+
+
+            <img src="./images/my recipe/IMG_5429.JPG" alt="">
+
+            <h4>madeira</h4>
+
+            <p>
+              Preheat oven to 350 degrees F (175 degrees C). Lightly grease a 9x5 inch loaf pan.
+            </p>
+            <button type="button" class="btn btn-primary">Save</button>
+
+            <div class="heart-box">
+
+              <i class="far fa-heart"></i>
+  
+            </div>
+            
+          </div>
+          
+          <div class="col-4">
+
+
+
+            <img src="./images/my recipe/Malva Pudding Brighter.jpg" alt="">
+
+            <h4>Malva Pudding</h4>
+
+            <p>
+              Preheat oven to 350 degrees F (175 degrees C). Lightly grease a 9x5 inch loaf pan.
+            </p>
+
+            <button type="button" class="btn btn-primary">Save</button>
+
+             <div class="heart-box">
+
+            <i class="far fa-heart"></i>
+
+          </div>
+          </div>
+
+        </div>
+
+        <!--contact form-->
+        <div id="recipes" class="small-container_2">
+
+        <div class="wrapper">
+          <h2>Contact us</h2>
+          <div id="error_message"></div>
+          <form id="myform" onsubmit="return validate();">
+            <div class="input_field">
+                <input type="text" placeholder="Name" id="name">
+            </div>
+            <div class="input_field">
+                <input type="text" placeholder="Subject" id="subject">
+            </div>
+            <div class="input_field">
+                <input type="text" placeholder="Phone" id="phone">
+            </div>
+            <div class="input_field">
+                <input type="text" placeholder="Email" id="email">
+            </div>
+            <div class="input_field">
+                <textarea placeholder="Message" id="message"></textarea>
+            </div>
+            <div class="btn">
+                <input type="submit">
+            </div>
+          </form>
+        </div>
+      </div>
+
+
+        <!--testimoniale-->
+
+        <div class="testimonial">
+          <div class="small-container_2">
+            <div class="row">
+
+              <div class="col-3">
+                <img src="./images/testimonial pictures/mr_charrel2.jpeg" alt="">
+                <h3>Charrel</h3>
+                <p>
+                  je suis satisfait de la qualite de vos services
+                </p>
+
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+
+              </div>
+              <div class="col-3">
+                <img src="./images/testimonial pictures/img_2.jpg" alt="">
+                <h3>ciara</h3>
+                <p>
+                  je suis satisfait de la qualite de vos services
+                </p>
+
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+
+              </div>
+              <div class="col-3">
+                <img src="./images/testimonial pictures/img_3.jpg" alt="">
+                <h3>Alicia</h3>
+                <p>
+                  je suis satisfait de la qualite de vos services
+                </p>
+
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+
+              </div>
+              <div class="col-3">
+                <img src="./images/testimonial pictures/img_4.jpg" alt="">
+                <h3>Bob</h3>
+                <p>
+                  je suis satisfait de la qualite de vos services
+                </p>
+
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!--comment form-->
+
+      <div class="comment-box">
+        <form action="/">
+          <h1>Customer Feedback Form</h1>
+          <p>Please take a few minutes to give us feedback about our service by filling in this short Customer Feedback Form. We are conducting this research in order to measure your level of satisfaction with the quality of our service. We thank you for your participation.</p>
+          <hr />
+          <h3>Overall experience with our service</h3>
+          <h4>What should we change in order to live up to your expectations?</h4>
+          <textarea rows="5"></textarea>
+          <h4>Email</h4>
+          <small>Only if you want to hear more from us.</small>
+          <input class="email" type="text" name="name" />
+          <div class="btn-block">
+            <button type="submit" href="/">Send Feedback</button>
+          </div>
+        </form>
+      </div>
+        <footer>
+          <a class="scroll-up" href="#top_page">Scroll <i class="fas fa-angle-up"></i></a>
+            <p class="copyright">&copy; 2020 - Charrel bakery. All rights reserved</p>
+            <a href="" class="cgv"> Conditions generales de ventes</a>
+        </footer>
+
+        <script src="./js/main.js"></script>
+        <script>
+
+        const sr = ScrollReveal()
+        sr.reveal('.welcome',{
+        origin:'top',
+        distance:'50px',
+        duration:2000,
+        reset:true
+        })
+
+        </script>
+
+    </body>
+
+</html>  
+
+
+
+  

@@ -1,0 +1,39 @@
+
+/*newsletterpage*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    
+    background-size: cover;
+    padding: 100px 40px;
+    background-position: center;
+    height: 360px;
+   
+    
+    
+text-align: center;
+}
+.first-h1{
+    color: rgb(73, 30, 30);
+    padding: 20px;
+    text-align: center;
+    margin: 40px auto;
+}
+.email-box{
+    display: flex;
+    height: 40px;
+    justify-content: center;
+}
+.email-box i{
+    background-color:black;
+    
+    width: 40px;
+    line-height: 40px;
+}
+.fa-envelope{
+    color:white;
+}
